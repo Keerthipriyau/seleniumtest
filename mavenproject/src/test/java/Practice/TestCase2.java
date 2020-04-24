@@ -31,13 +31,14 @@ public class TestCase2 {
         System.out.println("submit");
         element.submit();
         
-        (new WebDriverWait(driver, 10)).until(new ExpectedCondition() {
+        /*(new WebDriverWait(driver, 10)).until(new ExpectedCondition() {
             public Boolean apply(WebDriver d) {
                 return d.getTitle().toLowerCase()
                         .startsWith(searchKey.toLowerCase());
             }
         });
         System.out.println("Got " + searchKey + " results");
+    }*/
     }
  
     @AfterSuite

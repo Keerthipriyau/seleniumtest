@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="maven.mavenproject.Handling_Radiobutton">
+      <class name="Practice.ParameterTest">
         <methods>
-          <include name="selectradiobutton"/>
+          <include name="ptest"/>
         </methods>
-      </class> <!-- maven.mavenproject.Handling_Radiobutton -->
+      </class> <!-- Practice.ParameterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
